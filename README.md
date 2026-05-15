@@ -82,7 +82,7 @@ The **Smart Blind Assistance Cane** is a wearable embedded system designed to en
 | 7 | Buzzer | 5V Passive | Audio alerts |
 | 8 | Vibration Motor | Small DC + NPN Transistor | Haptic feedback |
 | 9 | LEDs | Red, Green, Yellow | Visual status indicators |
-| 10 | Power Supply | 9V Battery | Portable power |
+| 10 | Power Supply | 7.4V Batteries | Portable power |
 
 ### Pin Assignment
 
