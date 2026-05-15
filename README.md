@@ -330,7 +330,7 @@ Smart-Cane/
 | Limited Arduino UNO I/O pins | Used I2C for RTC (A4/A5), optimized pin mapping |
 | Conflicting alert signals | Implemented strict 4-tier priority hierarchy |
 | Bluetooth blocking main loop | Non-blocking `millis()`-based timing (50ms/500ms intervals) |
-| 9V battery power drain | Efficient duty cycling; all sensors on shared 5V rail |
+| 7.4V batteries power drain | Efficient duty cycling; all sensors on shared 5V rail |
 | Native Android Bluetooth | Built RFCOMM SPP client without external libraries |
 | Duplicate Telegram spam | Added cooldown logic for sustained hazard conditions |
 | GPS fix acquisition | Graceful handling; alerts sent even if GPS pending |
@@ -351,7 +351,6 @@ Smart-Cane/
 - Inspired by open-source assistive technology communities and embedded systems research
 - Built with Arduino ecosystem and Android native Bluetooth APIs
 - Telegram Bot API for reliable, serverless caretaker notifications
-- Special thanks to Dr. Mohammed Hammouda for guidance and supervision
 
 ---
 
