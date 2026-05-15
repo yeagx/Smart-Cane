@@ -200,7 +200,7 @@ else                               → ALL CLEAR (Priority 4)
 ## Wiring Diagram
 
 <p align="center">
-  <img src="docs/circuit_diagram.png" alt="Circuit Diagram" width="800">
+  <img src="Prototypes/Circuit-Diagram.png" alt="Circuit Diagram" width="800">
   <br>
   <i>Figure 1.1: Smart Blind Assistance Cane Hardware Connections and Circuit Diagram</i>
 </p>
@@ -208,11 +208,11 @@ else                               → ALL CLEAR (Priority 4)
 ### Assembly Notes
 - **HC-05 Voltage Divider**: Arduino D11 (TX) → 2kΩ → HC-05 RXD, with 1kΩ to GND (5V → 3.3V logic level shift)
 - **Motor Driver**: NPN transistor (e.g., 2N2222) with 1kΩ base resistor and 1N4148 flyback diode across motor terminals
-- **Power**: 9V battery connected to Arduino VIN and GND; all sensors powered from Arduino 5V rail
+- **Power**: 7.4V batteries connected to Arduino VIN and GND; all sensors powered from Arduino 5V rail
 - **Enclosure**: Weather-resistant box mounted on cane shaft; vibration motor placed inside ergonomic handle grip
 
 <p align="center">
-  <img src="docs/prototype_layout.png" alt="Prototype Layout" width="800">
+  <img src="Prototypes/Circuit-Diagram.png" alt="Prototype Layout" width="800">
   <br>
   <i>Figure 1.2: SmartCane Prototype Internal Layout and External Assembly</i>
 </p>
@@ -222,7 +222,7 @@ else                               → ALL CLEAR (Priority 4)
 ## Usage
 
 ### Power On
-1. Connect the 9V battery
+1. Connect the 7.4V batteries
 2. The system performs a 2-second sensor warm-up
 3. Serial monitor shows: `System active. Monitoring started.`
 
