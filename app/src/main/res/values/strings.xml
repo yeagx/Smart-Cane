@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">SmartCane</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="select_device">Select Device</string>
+    <string name="cancel">Cancel</string>
+    <string name="distance">Distance</string>
+    <string name="smoke_level">Smoke Level</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_ppm">ppm</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_percent">%%</string>
+    <string name="status_clear">ALL CLEAR</string>
+    <string name="status_warning">WARNING</string>
+    <string name="status_danger">DANGER</string>
+    <string name="status_hazard">SMOKE/TEMP HAZARD</string>
+    <string name="status_sos">SOS — PANIC</string>
+    <string name="hazard_log">Hazard Log</string>
+    <string name="no_value">--</string>
+    <string name="bt_not_supported">Bluetooth not supported on this device</string>
+    <string name="bt_not_enabled">Please enable Bluetooth first</string>
+    <string name="bt_no_paired">No paired devices found</string>
+    <string name="bt_permission_required">Bluetooth permissions are required</string>
+    <string name="bt_connected_to">Connected to %s</string>
+    <string name="bt_connection_failed">Connection failed: %s</string>
+    <string name="bt_connection_lost">Connection lost</string>
+    <string name="no_logs_yet">No hazard events recorded</string>
+    <string name="alert_channel_name">Hazard Alerts</string>
+    <string name="alert_channel_desc">Alerts when SmartCane detects obstacles, smoke, or high temperature</string>
+    <string name="alert_title">SmartCane Alert</string>
+    <string name="alert_danger_obstacle">DANGER! Obstacle at %s cm</string>
+    <string name="alert_warning_obstacle">WARNING — Obstacle ahead</string>
+    <string name="alert_smoke_temp">HAZARD! Smoke or high temperature detected</string>
+    <string name="tts_danger_obstacle">Danger! Obstacle ahead.</string>
+    <string name="tts_warning_obstacle">Warning. Obstacle ahead.</string>
+    <string name="tts_smoke_temp">Hazard! Smoke or high temperature detected.</string>
+    <string name="tts_sos">Emergency! SOS panic button pressed on the cane. Help may be needed.</string>
+    <string name="tts_sustained_obstacle">Danger! You have been near an obstacle for too long.</string>
+    <string name="telegram_section_label">Telegram Caretaker Alerts</string>
+    <string name="telegram_token_hint">Bot token from @BotFather</string>
+    <string name="telegram_chat_id_hint">Caretaker chat IDs (one per line or commas)</string>
+    <string name="telegram_multichat_help">Each caretaker: open your bot in Telegram, send /start, then tap Link Caretaker. Repeat for more people—or paste IDs manually.</string>
+    <string name="telegram_link_btn">Link Caretaker</string>
+    <string name="telegram_test_btn">Test Alert</string>
+    <string name="telegram_status_saved">Saved</string>
+    <string name="telegram_status_linked">Linked to %s</string>
+    <string name="telegram_status_already_linked">This chat ID is already listed</string>
+    <string name="telegram_status_test_sent">Test alert sent!</string>
+    <string name="telegram_status_not_configured">Enter bot token to get started</string>
+    <string name="telegram_status_no_token">Enter the bot token first</string>
+    <string name="telegram_status_no_chat">Link a caretaker or enter Chat ID first</string>
+    <string name="telegram_status_no_updates">No one has messaged the bot yet. Ask the caretaker to open Telegram and send /start to your bot.</string>
+    <string name="telegram_status_failed">Failed: %s</string>
+    <string name="telegram_msg_smoke_temp">🚨 SmartCane ALERT\nSmoke or high temperature detected!\nTime: %s</string>
+    <string name="telegram_msg_sustained_obstacle">⚠️ SmartCane ALERT\nPerson stuck near obstacle for 5+ seconds!\nTime: %s</string>
+    <string name="telegram_msg_test">✅ SmartCane test alert — Telegram is working!</string>
+    <string name="telegram_msg_sos">🆘 SmartCane SOS — PANIC BUTTON\nThe user pressed the emergency button on the cane.\n\nCane clock: %1$s\nDistance: %2$.0f cm\nSmoke: %3$d\nTemp: %4$.1f °C\nHumidity: %5$.1f%%\nLast app status: %6$s\nPhone time: %7$s</string>
+    <string name="alert_sustained_obstacle">DANGER! Stuck near obstacle for 5+ seconds</string>
+    <string name="alert_sos">SOS: Panic button on cane — user needs help</string>
+    <string name="location_unavailable">Location unavailable</string>
+    <string name="location_status_permission_needed">Location permission needed for caretaker alerts</string>
+    <string name="location_status_disabled">Location services are off</string>
+    <string name="location_status_searching">Getting location…</string>
+    <string name="location_status_ready">Location ready for alerts</string>
+    <string name="btn_enable_gps">Enable GPS / location</string>
+    <string name="toast_location_settings_opened">Turn on location/GPS in settings, then return to SmartCane</string>
+    <string name="sos_telegram_not_configured">SOS recorded — add Telegram bot &amp; caretakers in Settings to notify them</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_save">Save Settings</string>
+    <string name="settings_saved_toast">Settings saved</string>
+    <string name="settings_telegram_desc">Configure your Telegram bot to receive caretaker alerts</string>
+    <string name="back">Back</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_skip">Skip</string>
+
+    <string name="onboarding_welcome_icon">🦯</string>
+    <string name="onboarding_welcome_title">SmartCane</string>
+    <string name="onboarding_welcome_desc">Your smart safety companion for the visually impaired.\n\nSmartCane connects to sensors on your cane to detect obstacles, smoke, and high temperatures — keeping you and your caretaker informed.</string>
+
+    <string name="onboarding_blind_icon">🔊</string>
+    <string name="onboarding_blind_title">How It Helps You</string>
+    <string name="onboarding_blind_desc">The cane detects obstacles, smoke, and dangerous temperatures around you.\n\n• You will hear voice alerts through the phone speaker\n• The phone vibrates with different patterns for each danger\n• No need to look at the screen — everything is hands-free</string>
+
+    <string name="onboarding_caretaker_icon">📱</string>
+    <string name="onboarding_caretaker_title">Stay Informed Remotely</string>
+    <string name="onboarding_caretaker_desc">As a caretaker, you will receive free Telegram alerts only for real emergencies:\n\n• Smoke or fire detected — instant Telegram message\n• Person stuck near obstacle for 5+ seconds — alert sent\n• Every alert includes a Google Maps link with their live location\n• Add multiple caretakers in Settings — link each person (or use a group chat ID)\n• Normal distance warnings are local only — no spam\n\nJust link your Telegram bot once in the app — it\'s completely free!</string>
+
+    <string name="onboarding_setup_icon">⚙️</string>
+    <string name="onboarding_setup_title">Getting Started</string>
+    <string name="onboarding_setup_desc">Setting up is easy:\n\n1. Pair the HC-05 Bluetooth module in your phone\'s Bluetooth settings\n\n2. Open SmartCane, tap Connect, and select the device\n\n3. Create a free Telegram bot via @BotFather and link it in the app\n\nThat\'s it — the cane is ready to protect you!</string>
+
+    <string name="onboarding_perms_icon">✅</string>
+    <string name="onboarding_perms_title">Allow Access</string>
+    <string name="onboarding_perms_desc">SmartCane needs a few permissions to work:\n\n• Bluetooth — to connect to the cane\n• Location — to share your position with the caretaker in emergencies\n• Internet — to send free Telegram alerts to the caretaker\n• Notifications — to show hazard alerts on this phone\n\nYou will be asked to grant these when you start the app. Tap Get Started to begin!</string>
+</resources>

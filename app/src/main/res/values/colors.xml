@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_primary">#FF00BCD4</color>
+    <color name="md_theme_onPrimary">#FF003544</color>
+    <color name="md_theme_primaryContainer">#FF004D61</color>
+    <color name="md_theme_onPrimaryContainer">#FFB8EAFF</color>
+
+    <color name="md_theme_secondary">#FF80CBC4</color>
+    <color name="md_theme_onSecondary">#FF00332E</color>
+
+    <color name="md_theme_background">#FF0F1419</color>
+    <color name="md_theme_onBackground">#FFE1E3E5</color>
+    <color name="md_theme_surface">#FF0F1419</color>
+    <color name="md_theme_onSurface">#FFE1E3E5</color>
+    <color name="md_theme_surfaceVariant">#FF1A2530</color>
+
+    <color name="card_surface">#FF1A2530</color>
+    <color name="card_stroke">#FF2A3A48</color>
+
+    <color name="status_clear">#FF388E3C</color>
+    <color name="status_warning">#FFFFA000</color>
+    <color name="status_danger">#FFD32F2F</color>
+
+    <color name="sensor_distance">#FF29B6F6</color>
+    <color name="sensor_smoke">#FFFF7043</color>
+    <color name="sensor_temp">#FFEF5350</color>
+    <color name="sensor_humidity">#FF26C6DA</color>
+
+    <color name="connected_green">#FF4CAF50</color>
+    <color name="disconnected_red">#FFF44336</color>
+    <color name="log_type_color">#FFEF5350</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
