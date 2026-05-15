@@ -36,10 +36,6 @@
 
 The **Smart Blind Assistance Cane** is a wearable embedded system designed to enhance mobility and safety for visually impaired individuals. Built on the **Arduino UNO** platform, the cane integrates multiple environmental sensors to detect physical obstacles, gas/smoke hazards, and extreme temperatures. All sensor data is streamed in real time via **Bluetooth SPP** to the companion **SmartCane Android application**, which provides local voice and vibration alerts to the user and automatically notifies a designated caretaker through **Telegram** with GPS-tagged location links for critical events.
 
-> **Institution**: Arab Academy for Science, Technology and Maritime Transport  
-> **College**: College of Computing & Information Technology  
-> **Year**: 2026
-
 ---
 
 ## Features
