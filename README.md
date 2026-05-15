@@ -348,14 +348,6 @@ Smart-Cane/
 - Mohamed Amgad Refat
 - Mohamed Ahmed Younes
 
-**Supervised By:**
-- Dr. Mohammed Hammouda
-
-**Institution:**
-- Arab Academy for Science, Technology and Maritime Transport
-- College of Computing & Information Technology
-- B.Sc. Final Year Project — 2026
-
 ---
 
 ## Acknowledgments
