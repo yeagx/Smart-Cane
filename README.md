@@ -212,7 +212,7 @@ else                               → ALL CLEAR (Priority 4)
 - **Enclosure**: Weather-resistant box mounted on cane shaft; vibration motor placed inside ergonomic handle grip
 
 <p align="center">
-  <img src="Prototypes/Prototypes.png" alt="Prototype Layout" width="800">
+  <img src="Prototypes/prototype.png" alt="Prototype Layout" width="800">
   <br>
   <i>Figure 1.2: SmartCane Prototype Internal Layout and External Assembly</i>
 </p>
