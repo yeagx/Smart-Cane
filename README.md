@@ -354,12 +354,6 @@ Smart-Cane/
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
 <p align="center">
   <i>Built with ❤️ for accessibility and independence.</i>
 </p>
