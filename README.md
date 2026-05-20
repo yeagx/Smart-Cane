@@ -306,8 +306,7 @@ Smart-Cane/
 │   ├── app_settings.png         # App screenshot — settings screen
 │   └── telegram_alert.png       # Telegram notification example
 ├── Documentation.pdf          # Full academic project report
-├── README.md                    # This file
-└── LICENSE                      # MIT License
+└── README.md                    # This file
 ```
 
 ---
