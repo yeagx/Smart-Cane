@@ -338,10 +338,14 @@ Smart-Cane/
 
 ## Team
 
-**Presented By:**
+### Presented By
 - [Abdulrhman Mohamed Gomaa](https://github.com/yeagx)
 - [Mohamed Amgad Refat](https://github.com/MedoJoker34)
 - [Mohamed Ahmed Younes](https://github.com/mohamedAY2004)
+
+### Supervisor
+- **Dr. Mohamed Hamouda**
+  - 📧 abdrabou@outlook.com
 
 ---
 
